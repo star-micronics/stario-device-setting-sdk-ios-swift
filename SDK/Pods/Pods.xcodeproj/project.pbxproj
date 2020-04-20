@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B32D3381745F29B3E345AD6359A96788 /* Build configuration list for PBXAggregateTarget "StarIO" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = StarIO;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05002A20330E0534846D2427605717FC /* Pods-StarSteadyLANSettingLabs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */; };
+		439572956615419E7E2531C5066A78E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AE7D02071DCE881A201A171C469598D0 /* Pods-StarSteadyLANSettingLabs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B326F47B8E8194342C9A5E532C871EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EF2C3DCAC3218D905A0BED9C9A329B;
+			remoteInfo = StarIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06900A64678809F00081088022976874 /* StarIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIO.xcconfig; sourceTree = "<group>"; };
+		070ECA6D44A0B330A0A898565A88EFB9 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		23B2D56AD71FB7D4A11F659E742E6410 /* Pods-StarSteadyLANSettingLabs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarSteadyLANSettingLabs-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarSteadyLANSettingLabs.framework; path = "Pods-StarSteadyLANSettingLabs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3651D0288B3868821A866BC1031B13CF /* Pods-StarSteadyLANSettingLabs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarSteadyLANSettingLabs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51284A9B19A925275EE072FECB0F1041 /* Pods-StarSteadyLANSettingLabs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarSteadyLANSettingLabs-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarSteadyLANSettingLabs-umbrella.h"; sourceTree = "<group>"; };
+		BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarSteadyLANSettingLabs.release.xcconfig"; sourceTree = "<group>"; };
+		D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarSteadyLANSettingLabs.debug.xcconfig"; sourceTree = "<group>"; };
+		E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarSteadyLANSettingLabs-dummy.m"; sourceTree = "<group>"; };
+		FE765126B8EFE0538C149B605A0BC306 /* Pods-StarSteadyLANSettingLabs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarSteadyLANSettingLabs.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A546C268E47FEF341176C534127B076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439572956615419E7E2531C5066A78E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0296A21DBDB1032785C2CF696EE751F0 /* Pods-StarSteadyLANSettingLabs */ = {
+			isa = PBXGroup;
+			children = (
+				FE765126B8EFE0538C149B605A0BC306 /* Pods-StarSteadyLANSettingLabs.modulemap */,
+				3651D0288B3868821A866BC1031B13CF /* Pods-StarSteadyLANSettingLabs-acknowledgements.markdown */,
+				23B2D56AD71FB7D4A11F659E742E6410 /* Pods-StarSteadyLANSettingLabs-acknowledgements.plist */,
+				E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */,
+				51284A9B19A925275EE072FECB0F1041 /* Pods-StarSteadyLANSettingLabs-Info.plist */,
+				A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */,
+				D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */,
+				BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */,
+			);
+			name = "Pods-StarSteadyLANSettingLabs";
+			path = "Target Support Files/Pods-StarSteadyLANSettingLabs";
+			sourceTree = "<group>";
+		};
+		10B3EEF38CEE6A919706FBC03DD1A450 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0296A21DBDB1032785C2CF696EE751F0 /* Pods-StarSteadyLANSettingLabs */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BB2FC0D3E210B76F35D2006FFC0B745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06900A64678809F00081088022976874 /* StarIO.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StarIO";
+			sourceTree = "<group>";
+		};
+		46F82C1A5937A611DD40D90730F79409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8D296AF8BDDD3DD7BDC627BF89C53C8 /* StarIO */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73031B4BC3E961E12A3B2A54FE71A6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB81E1329EC3810845AA7DE07C1E3C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070ECA6D44A0B330A0A898565A88EFB9 /* StarIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46F82C1A5937A611DD40D90730F79409 /* Pods */,
+				73031B4BC3E961E12A3B2A54FE71A6DD /* Products */,
+				10B3EEF38CEE6A919706FBC03DD1A450 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D296AF8BDDD3DD7BDC627BF89C53C8 /* StarIO */ = {
+			isa = PBXGroup;
+			children = (
+				8AB81E1329EC3810845AA7DE07C1E3C7 /* Frameworks */,
+				1BB2FC0D3E210B76F35D2006FFC0B745 /* Support Files */,
+			);
+			name = StarIO;
+			path = StarIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F259FD9B5F54B41B74C705C9C19B154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7D02071DCE881A201A171C469598D0 /* Pods-StarSteadyLANSettingLabs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A7A1D88F79F64EB012B4F68B89C4BF6 /* Pods-StarSteadyLANSettingLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C6413A63FC6C88022948FB7B45F945 /* Build configuration list for PBXNativeTarget "Pods-StarSteadyLANSettingLabs" */;
+			buildPhases = (
+				2F259FD9B5F54B41B74C705C9C19B154 /* Headers */,
+				099DF4D7C1002F556C8398F0ACF791DC /* Sources */,
+				8A546C268E47FEF341176C534127B076 /* Frameworks */,
+				917FF3C8B1E824F658D2851F1827FC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72257266F41D32A98EA131FDFC5C6E94 /* PBXTargetDependency */,
+			);
+			name = "Pods-StarSteadyLANSettingLabs";
+			productName = "Pods-StarSteadyLANSettingLabs";
+			productReference = 2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 73031B4BC3E961E12A3B2A54FE71A6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7A1D88F79F64EB012B4F68B89C4BF6 /* Pods-StarSteadyLANSettingLabs */,
+				95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917FF3C8B1E824F658D2851F1827FC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099DF4D7C1002F556C8398F0ACF791DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05002A20330E0534846D2427605717FC /* Pods-StarSteadyLANSettingLabs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72257266F41D32A98EA131FDFC5C6E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarIO;
+			target = 95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */;
+			targetProxy = 5B326F47B8E8194342C9A5E532C871EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		218768B1B054591B13EF0744680978F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2ED1B29582134BC1D75614E48F1C566B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		395F346C64A71739C70A59B6EDB60A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06900A64678809F00081088022976874 /* StarIO.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B14CC4152B486F0FE71F49478F8419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06900A64678809F00081088022976874 /* StarIO.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32D3381745F29B3E345AD6359A96788 /* Build configuration list for PBXAggregateTarget "StarIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395F346C64A71739C70A59B6EDB60A1E /* Debug */,
+				3B14CC4152B486F0FE71F49478F8419D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C6413A63FC6C88022948FB7B45F945 /* Build configuration list for PBXNativeTarget "Pods-StarSteadyLANSettingLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218768B1B054591B13EF0744680978F1 /* Debug */,
+				2ED1B29582134BC1D75614E48F1C566B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
