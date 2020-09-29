@@ -7,6 +7,6 @@ use_frameworks!
 
 
 # Pods for StarSteadyLANSettingLabs
-pod 'StarIO', '2.7.0'
+pod 'StarIO', '2.8.1'
 
 end

@@ -31,6 +31,7 @@
 
 @property (readonly, getter = isConnected) BOOL connected;
 @property (readwrite) u_int32_t endCheckedBlockTimeoutMillis;
+@property (readwrite) u_int32_t holdPrintTimeoutMillis;
 
 @property (retain, readonly) NSString *firmwareInformation;
 

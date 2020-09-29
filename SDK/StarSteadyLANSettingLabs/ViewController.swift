@@ -48,6 +48,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         if steadyLANSegmentControl.selectedSegmentIndex == 1 {
             commandArray = [0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x39, 0x01, 0x01, //set to SteadyLAN(for iOS)
                             0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x70, 0x01, 0x00] //apply setting. Note: The printer is reset to apply setting when writing this command is completed.
+
+            //The settings for other OSs are as follows. But it will not work on iOS devices.
+            // For Android
+          //commandArray = [0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x39, 0x01, 0x02, //set to SteadyLAN(for Android)
+          //                0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x70, 0x01, 0x00] //apply setting. Note: The printer is reset to apply setting when writing this command is completed.
+            // For Windows
+          //commandArray = [0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x39, 0x01, 0x03, //set to SteadyLAN(for Windows)
+          //                0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x70, 0x01, 0x00] //apply setting. Note: The printer is reset to apply setting when writing this command is completed.
         }
         else {
              commandArray = [0x1b, 0x1d, 0x29, 0x4e, 0x03, 0x00, 0x39, 0x01, 0x00, //set to SteadyLAN(Disable)
