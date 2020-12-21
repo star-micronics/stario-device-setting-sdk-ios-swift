@@ -16,16 +16,40 @@
 			);
 			name = StarIO;
 		};
+		C3D27F46E24D30EDB4116E46E296C961 /* StarIODeviceSetting */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98D3A7987FD77895BED3F228ACE4BB5A /* Build configuration list for PBXAggregateTarget "StarIODeviceSetting" */;
+			buildPhases = (
+			);
+			dependencies = (
+				BE84C8BC9D4704E870B8FF2B68C8AA79 /* PBXTargetDependency */,
+			);
+			name = StarIODeviceSetting;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		05002A20330E0534846D2427605717FC /* Pods-StarSteadyLANSettingLabs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */; };
-		439572956615419E7E2531C5066A78E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AE7D02071DCE881A201A171C469598D0 /* Pods-StarSteadyLANSettingLabs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B509D1D00F8AC1DAD9D099519C74C8C /* Pods-StarIODeviceSettingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE15FEC36F7BB27EF337BB7632036FF /* Pods-StarIODeviceSettingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */; };
+		6E960B856665EBE0E367764117DFFF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B326F47B8E8194342C9A5E532C871EE /* PBXContainerItemProxy */ = {
+		05EF59170933DC6F70396B865E3E111C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EF2C3DCAC3218D905A0BED9C9A329B;
+			remoteInfo = StarIO;
+		};
+		10B9C02D50326D907AE5B02C2C33C02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D27F46E24D30EDB4116E46E296C961;
+			remoteInfo = StarIODeviceSetting;
+		};
+		8A17A37DA875533F6F47203FAEBB77E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,88 +59,103 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06900A64678809F00081088022976874 /* StarIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIO.xcconfig; sourceTree = "<group>"; };
-		070ECA6D44A0B330A0A898565A88EFB9 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
-		23B2D56AD71FB7D4A11F659E742E6410 /* Pods-StarSteadyLANSettingLabs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarSteadyLANSettingLabs-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarSteadyLANSettingLabs.framework; path = "Pods-StarSteadyLANSettingLabs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1316C6385AB792B8D8035C2AB8EBA0F6 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		155BB9CE339A8F31EC38D15831EEC7F5 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarIODeviceSettingSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25C5497A6C889788405034B8AE03FD9C /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		2784FDEA51CC0930DA5D9E85491E2743 /* Pods-StarIODeviceSettingSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3651D0288B3868821A866BC1031B13CF /* Pods-StarSteadyLANSettingLabs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarSteadyLANSettingLabs-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51284A9B19A925275EE072FECB0F1041 /* Pods-StarSteadyLANSettingLabs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarSteadyLANSettingLabs-Info.plist"; sourceTree = "<group>"; };
+		5E65AC7296E78CA45FEF5D4E206174E1 /* StarIODeviceSetting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIODeviceSetting.xcconfig; sourceTree = "<group>"; };
+		6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.release.xcconfig"; sourceTree = "<group>"; };
+		8643A73E7C0AE53DEC2AAC4A12F97C96 /* StarIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIO.xcconfig; sourceTree = "<group>"; };
+		8ACCC5CF245A24389D8E02BF39A8A8BF /* Pods-StarIODeviceSettingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarIODeviceSettingSDK.modulemap"; sourceTree = "<group>"; };
+		975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarIODeviceSettingSDK-dummy.m"; sourceTree = "<group>"; };
+		9B40A4E5DE350874BE6F7A19204B3C23 /* StarIODeviceSetting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIODeviceSetting.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarSteadyLANSettingLabs-umbrella.h"; sourceTree = "<group>"; };
-		BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarSteadyLANSettingLabs.release.xcconfig"; sourceTree = "<group>"; };
-		D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarSteadyLANSettingLabs.debug.xcconfig"; sourceTree = "<group>"; };
-		E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarSteadyLANSettingLabs-dummy.m"; sourceTree = "<group>"; };
-		FE765126B8EFE0538C149B605A0BC306 /* Pods-StarSteadyLANSettingLabs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarSteadyLANSettingLabs.modulemap"; sourceTree = "<group>"; };
+		CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FEDC7B2FAA8C2AFB9EC46FE4851C01 /* Pods_StarIODeviceSettingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarIODeviceSettingSDK.framework; path = "Pods-StarIODeviceSettingSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarIODeviceSettingSDK-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A546C268E47FEF341176C534127B076 /* Frameworks */ = {
+		3018709CC67A6A51F402742ED4167CE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439572956615419E7E2531C5066A78E6 /* Foundation.framework in Frameworks */,
+				6E960B856665EBE0E367764117DFFF89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0296A21DBDB1032785C2CF696EE751F0 /* Pods-StarSteadyLANSettingLabs */ = {
+		1D149984F8AD37370C6AF8BAA1543C33 /* Pods-StarIODeviceSettingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				FE765126B8EFE0538C149B605A0BC306 /* Pods-StarSteadyLANSettingLabs.modulemap */,
-				3651D0288B3868821A866BC1031B13CF /* Pods-StarSteadyLANSettingLabs-acknowledgements.markdown */,
-				23B2D56AD71FB7D4A11F659E742E6410 /* Pods-StarSteadyLANSettingLabs-acknowledgements.plist */,
-				E2AA48CCF15594C15E4D79016484C7A5 /* Pods-StarSteadyLANSettingLabs-dummy.m */,
-				51284A9B19A925275EE072FECB0F1041 /* Pods-StarSteadyLANSettingLabs-Info.plist */,
-				A2B70768FEF0D8BB1C304A5D70F6701B /* Pods-StarSteadyLANSettingLabs-umbrella.h */,
-				D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */,
-				BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */,
+				8ACCC5CF245A24389D8E02BF39A8A8BF /* Pods-StarIODeviceSettingSDK.modulemap */,
+				155BB9CE339A8F31EC38D15831EEC7F5 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */,
+				1316C6385AB792B8D8035C2AB8EBA0F6 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */,
+				975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */,
+				2784FDEA51CC0930DA5D9E85491E2743 /* Pods-StarIODeviceSettingSDK-Info.plist */,
+				FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */,
+				CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */,
+				6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */,
 			);
-			name = "Pods-StarSteadyLANSettingLabs";
-			path = "Target Support Files/Pods-StarSteadyLANSettingLabs";
+			name = "Pods-StarIODeviceSettingSDK";
+			path = "Target Support Files/Pods-StarIODeviceSettingSDK";
 			sourceTree = "<group>";
 		};
-		10B3EEF38CEE6A919706FBC03DD1A450 /* Targets Support Files */ = {
+		46C2A9B2ED9A78F376024B32B8D4B6C7 /* StarIODeviceSetting */ = {
 			isa = PBXGroup;
 			children = (
-				0296A21DBDB1032785C2CF696EE751F0 /* Pods-StarSteadyLANSettingLabs */,
+				8E1559F9F142B3CD1DADC56AE242A065 /* Frameworks */,
+				6783C2BDDE3E04D2356A12C1E48AF6F7 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = StarIODeviceSetting;
+			path = StarIODeviceSetting;
 			sourceTree = "<group>";
 		};
-		1BB2FC0D3E210B76F35D2006FFC0B745 /* Support Files */ = {
+		54EAE5579199A9D93161E02D18C013AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06900A64678809F00081088022976874 /* StarIO.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/StarIO";
-			sourceTree = "<group>";
-		};
-		46F82C1A5937A611DD40D90730F79409 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8D296AF8BDDD3DD7BDC627BF89C53C8 /* StarIO */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		73031B4BC3E961E12A3B2A54FE71A6DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8AB81E1329EC3810845AA7DE07C1E3C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				070ECA6D44A0B330A0A898565A88EFB9 /* StarIO.framework */,
+				25C5497A6C889788405034B8AE03FD9C /* StarIO.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6783C2BDDE3E04D2356A12C1E48AF6F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E65AC7296E78CA45FEF5D4E206174E1 /* StarIODeviceSetting.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StarIODeviceSetting";
+			sourceTree = "<group>";
+		};
+		6CB9F92679B66FA332DAC2CEF0ED5400 /* StarIO */ = {
+			isa = PBXGroup;
+			children = (
+				54EAE5579199A9D93161E02D18C013AC /* Frameworks */,
+				E1019CDBFFA0D76D4F24397C9B95E617 /* Support Files */,
+			);
+			name = StarIO;
+			path = StarIO;
+			sourceTree = "<group>";
+		};
+		8E1559F9F142B3CD1DADC56AE242A065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B40A4E5DE350874BE6F7A19204B3C23 /* StarIODeviceSetting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C5BD65A2C52C946CF04CD2F284A638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB9F92679B66FA332DAC2CEF0ED5400 /* StarIO */,
+				46C2A9B2ED9A78F376024B32B8D4B6C7 /* StarIODeviceSetting */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -127,14 +166,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C436D61D272A1E82EED7D168ED946EA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D149984F8AD37370C6AF8BAA1543C33 /* Pods-StarIODeviceSettingSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				46F82C1A5937A611DD40D90730F79409 /* Pods */,
-				73031B4BC3E961E12A3B2A54FE71A6DD /* Products */,
-				10B3EEF38CEE6A919706FBC03DD1A450 /* Targets Support Files */,
+				B6C5BD65A2C52C946CF04CD2F284A638 /* Pods */,
+				D9BEA1BD577669147C4CAA58CD2482E7 /* Products */,
+				C436D61D272A1E82EED7D168ED946EA4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,47 +193,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8D296AF8BDDD3DD7BDC627BF89C53C8 /* StarIO */ = {
+		D9BEA1BD577669147C4CAA58CD2482E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AB81E1329EC3810845AA7DE07C1E3C7 /* Frameworks */,
-				1BB2FC0D3E210B76F35D2006FFC0B745 /* Support Files */,
+				E8FEDC7B2FAA8C2AFB9EC46FE4851C01 /* Pods_StarIODeviceSettingSDK.framework */,
 			);
-			name = StarIO;
-			path = StarIO;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1019CDBFFA0D76D4F24397C9B95E617 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8643A73E7C0AE53DEC2AAC4A12F97C96 /* StarIO.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StarIO";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F259FD9B5F54B41B74C705C9C19B154 /* Headers */ = {
+		A7BFE725392104772EEE98E4670FADC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7D02071DCE881A201A171C469598D0 /* Pods-StarSteadyLANSettingLabs-umbrella.h in Headers */,
+				1B509D1D00F8AC1DAD9D099519C74C8C /* Pods-StarIODeviceSettingSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A7A1D88F79F64EB012B4F68B89C4BF6 /* Pods-StarSteadyLANSettingLabs */ = {
+		EAE9423BBF84A0B3CB85C75CC825B05F /* Pods-StarIODeviceSettingSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8C6413A63FC6C88022948FB7B45F945 /* Build configuration list for PBXNativeTarget "Pods-StarSteadyLANSettingLabs" */;
+			buildConfigurationList = C861A139AB4DFE0882B9F1719C5E1826 /* Build configuration list for PBXNativeTarget "Pods-StarIODeviceSettingSDK" */;
 			buildPhases = (
-				2F259FD9B5F54B41B74C705C9C19B154 /* Headers */,
-				099DF4D7C1002F556C8398F0ACF791DC /* Sources */,
-				8A546C268E47FEF341176C534127B076 /* Frameworks */,
-				917FF3C8B1E824F658D2851F1827FC1A /* Resources */,
+				A7BFE725392104772EEE98E4670FADC9 /* Headers */,
+				B061FC64B0CA8DBD060A097121A54084 /* Sources */,
+				3018709CC67A6A51F402742ED4167CE7 /* Frameworks */,
+				2E28E52C8B99C529298C8FC1CD282322 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72257266F41D32A98EA131FDFC5C6E94 /* PBXTargetDependency */,
+				4D28BF0F79BF4A3440331C7E4ECAC662 /* PBXTargetDependency */,
+				209AFFE306088A438772FE7F36D080ED /* PBXTargetDependency */,
 			);
-			name = "Pods-StarSteadyLANSettingLabs";
-			productName = "Pods-StarSteadyLANSettingLabs";
-			productReference = 2ED34AEA5DDC01DBF103FCA207EA8BFB /* Pods_StarSteadyLANSettingLabs.framework */;
+			name = "Pods-StarIODeviceSettingSDK";
+			productName = "Pods-StarIODeviceSettingSDK";
+			productReference = E8FEDC7B2FAA8C2AFB9EC46FE4851C01 /* Pods_StarIODeviceSettingSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -207,18 +262,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 73031B4BC3E961E12A3B2A54FE71A6DD /* Products */;
+			productRefGroup = D9BEA1BD577669147C4CAA58CD2482E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A7A1D88F79F64EB012B4F68B89C4BF6 /* Pods-StarSteadyLANSettingLabs */,
+				EAE9423BBF84A0B3CB85C75CC825B05F /* Pods-StarIODeviceSettingSDK */,
 				95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */,
+				C3D27F46E24D30EDB4116E46E296C961 /* StarIODeviceSetting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		917FF3C8B1E824F658D2851F1827FC1A /* Resources */ = {
+		2E28E52C8B99C529298C8FC1CD282322 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,32 +284,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		099DF4D7C1002F556C8398F0ACF791DC /* Sources */ = {
+		B061FC64B0CA8DBD060A097121A54084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05002A20330E0534846D2427605717FC /* Pods-StarSteadyLANSettingLabs-dummy.m in Sources */,
+				2CE15FEC36F7BB27EF337BB7632036FF /* Pods-StarIODeviceSettingSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		72257266F41D32A98EA131FDFC5C6E94 /* PBXTargetDependency */ = {
+		209AFFE306088A438772FE7F36D080ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarIODeviceSetting;
+			target = C3D27F46E24D30EDB4116E46E296C961 /* StarIODeviceSetting */;
+			targetProxy = 10B9C02D50326D907AE5B02C2C33C02E /* PBXContainerItemProxy */;
+		};
+		4D28BF0F79BF4A3440331C7E4ECAC662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StarIO;
 			target = 95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */;
-			targetProxy = 5B326F47B8E8194342C9A5E532C871EE /* PBXContainerItemProxy */;
+			targetProxy = 8A17A37DA875533F6F47203FAEBB77E8 /* PBXContainerItemProxy */;
+		};
+		BE84C8BC9D4704E870B8FF2B68C8AA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarIO;
+			target = 95EF2C3DCAC3218D905A0BED9C9A329B /* StarIO */;
+			targetProxy = 05EF59170933DC6F70396B865E3E111C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		218768B1B054591B13EF0744680978F1 /* Debug */ = {
+		395F346C64A71739C70A59B6EDB60A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1169389FF80254B523D20AF78DF6B63 /* Pods-StarSteadyLANSettingLabs.debug.xcconfig */;
+			baseConfigurationReference = 8643A73E7C0AE53DEC2AAC4A12F97C96 /* StarIO.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B14CC4152B486F0FE71F49478F8419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8643A73E7C0AE53DEC2AAC4A12F97C96 /* StarIO.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79699A4D9540EBDBEFFD8934530A33C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -263,16 +363,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarIODeviceSettingSDK/Pods-StarIODeviceSettingSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-StarIODeviceSettingSDK/Pods-StarIODeviceSettingSDK.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -286,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		257497152829C177993B5EC99C1D227A /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,79 +446,7 @@
 			};
 			name = Release;
 		};
-		2ED1B29582134BC1D75614E48F1C566B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA69241E96791FFF1267B4073FF5C7A /* Pods-StarSteadyLANSettingLabs.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarSteadyLANSettingLabs/Pods-StarSteadyLANSettingLabs.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		395F346C64A71739C70A59B6EDB60A1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06900A64678809F00081088022976874 /* StarIO.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3B14CC4152B486F0FE71F49478F8419D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06900A64678809F00081088022976874 /* StarIO.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -469,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -482,14 +510,94 @@
 			};
 			name = Debug;
 		};
+		A04FCAC22D13ADE0E931C41696FF1390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarIODeviceSettingSDK/Pods-StarIODeviceSettingSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarIODeviceSettingSDK/Pods-StarIODeviceSettingSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE780080290BCCBA7C59ADEF93B95CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E65AC7296E78CA45FEF5D4E206174E1 /* StarIODeviceSetting.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7D7AD5D7C10C2BE9F3E03ECDBA32A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E65AC7296E78CA45FEF5D4E206174E1 /* StarIODeviceSetting.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
-				257497152829C177993B5EC99C1D227A /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D3A7987FD77895BED3F228ACE4BB5A /* Build configuration list for PBXAggregateTarget "StarIODeviceSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE780080290BCCBA7C59ADEF93B95CD9 /* Debug */,
+				DB7D7AD5D7C10C2BE9F3E03ECDBA32A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -503,11 +611,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8C6413A63FC6C88022948FB7B45F945 /* Build configuration list for PBXNativeTarget "Pods-StarSteadyLANSettingLabs" */ = {
+		C861A139AB4DFE0882B9F1719C5E1826 /* Build configuration list for PBXNativeTarget "Pods-StarIODeviceSettingSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				218768B1B054591B13EF0744680978F1 /* Debug */,
-				2ED1B29582134BC1D75614E48F1C566B /* Release */,
+				79699A4D9540EBDBEFFD8934530A33C7 /* Debug */,
+				A04FCAC22D13ADE0E931C41696FF1390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
