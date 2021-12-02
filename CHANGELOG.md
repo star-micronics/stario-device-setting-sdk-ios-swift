@@ -1,6 +1,21 @@
+# V1.0.1
+
+## StarIO
+- Added features
+  * Added TSP100IV.
+- Changed file format from framework to xcframework.
+- Supported for iOS simulator running on Apple Silicon.
+
+## StarIODeviceSetting
+- Changed file format from framework to xcframework.
+- Supported for iOS simulator running on Apple Silicon.
+
+stario (Ver. 2.9.0)  
+stariodevicesetting (Ver. 1.0.1)
+
 # V1.0.0
 
 Initial release for GitHub.
 
-StarIO (Ver. 2.8.2)  
-StarIODeviceSetting (Ver. 1.0.0)
+stario (Ver. 2.8.2)  
+stariodevicesetting (Ver. 1.0.0)
