@@ -1,10 +1,10 @@
 PODS:
-  - StarIO (2.9.0)
+  - StarIO (2.10.0)
   - StarIODeviceSetting (1.0.1):
     - StarIO
 
 DEPENDENCIES:
-  - StarIO (= 2.9.0)
+  - StarIO (= 2.10.0)
   - StarIODeviceSetting (= 1.0.1)
 
 SPEC REPOS:
@@ -13,9 +13,9 @@ SPEC REPOS:
     - StarIODeviceSetting
 
 SPEC CHECKSUMS:
-  StarIO: d0b0328ea87b9adb6a4f91617890dff93f7be380
+  StarIO: 4083e371722e033a5c1aca269049784911b75d37
   StarIODeviceSetting: 39d44894eac07f388cdaa17991ba61a728f8f014
 
-PODFILE CHECKSUM: bb6daf1cc84fc9c0e50d6c8ae6acf6085b1a7f1e
+PODFILE CHECKSUM: b8f6c458c424a8506089af7781f6fe29523637d4
 
 COCOAPODS: 1.10.1

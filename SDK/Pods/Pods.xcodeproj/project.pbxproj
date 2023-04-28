@@ -32,8 +32,8 @@
 
 /* Begin PBXBuildFile section */
 		1D6AD02F1DFB1D0D298617F24B895B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CA97EC416C8E030C50011369811551B1 /* Pods-StarIODeviceSettingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */; };
-		CF986E1633DAB108DB7A6AB8806C7F0A /* Pods-StarIODeviceSettingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA97EC416C8E030C50011369811551B1 /* Pods-StarIODeviceSettingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212D6E54530391FB580BF0379D00C96C /* Pods-StarIODeviceSettingSDK-dummy.m */; };
+		CF986E1633DAB108DB7A6AB8806C7F0A /* Pods-StarIODeviceSettingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEA0B7708C81F338002072F3083DC72 /* Pods-StarIODeviceSettingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,24 +62,25 @@
 
 /* Begin PBXFileReference section */
 		12B829A623F1A53EE48BDC7355D4C7C6 /* StarIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIO.release.xcconfig; sourceTree = "<group>"; };
-		1316C6385AB792B8D8035C2AB8EBA0F6 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		155BB9CE339A8F31EC38D15831EEC7F5 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarIODeviceSettingSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		212D6E54530391FB580BF0379D00C96C /* Pods-StarIODeviceSettingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarIODeviceSettingSDK-dummy.m"; sourceTree = "<group>"; };
 		26433181A518D2E7FD93A94B0BEEC56B /* StarIO.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = StarIO.xcframework; sourceTree = "<group>"; };
-		2784FDEA51CC0930DA5D9E85491E2743 /* Pods-StarIODeviceSettingSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-Info.plist"; sourceTree = "<group>"; };
+		3DEA0B7708C81F338002072F3083DC72 /* Pods-StarIODeviceSettingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarIODeviceSettingSDK-umbrella.h"; sourceTree = "<group>"; };
+		3E7C8C398301B6CCDF29D3BC7DB76342 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarIODeviceSettingSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4605572B2A35F194DA4B9B09020420DE /* StarIODeviceSetting.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = StarIODeviceSetting.xcframework; sourceTree = "<group>"; };
+		51E2746D0CACBF2C146A0360030ACD1B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		595475A61004613B1CBB5D0D203D300A /* Pods-StarIODeviceSettingSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-Info.plist"; sourceTree = "<group>"; };
 		5A5D49F1AACE20D0A0EF02276B690EFD /* StarIO-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "StarIO-xcframeworks.sh"; sourceTree = "<group>"; };
-		6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.release.xcconfig"; sourceTree = "<group>"; };
 		66FA7BCA44A08254A78451F9A05D4AB2 /* StarIODeviceSetting-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "StarIODeviceSetting-xcframeworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8ACCC5CF245A24389D8E02BF39A8A8BF /* Pods-StarIODeviceSettingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarIODeviceSettingSDK.modulemap"; sourceTree = "<group>"; };
-		975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarIODeviceSettingSDK-dummy.m"; sourceTree = "<group>"; };
+		7AEB3CEB65F2990BD60BD0572AD07244 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarIODeviceSettingSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A18D6CE1A11DCF7D1FF089E8F6E5F003 /* StarIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIO.debug.xcconfig; sourceTree = "<group>"; };
 		AC8A0A6A5CEACEF32C1CCED084633EA9 /* StarIODeviceSetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIODeviceSetting.debug.xcconfig; sourceTree = "<group>"; };
-		CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C67A011D1006CE95E1461D94DDEC3058 /* Pods-StarIODeviceSettingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarIODeviceSettingSDK.release.xcconfig"; sourceTree = "<group>"; };
+		CFD7F84E23C941163C8BDCEB6764D9B2 /* Pods-StarIODeviceSettingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarIODeviceSettingSDK.modulemap"; sourceTree = "<group>"; };
+		DD2E2107DD0EF03F51AF5CBC5A6E62D7 /* Pods-StarIODeviceSettingSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarIODeviceSettingSDK-frameworks.sh"; sourceTree = "<group>"; };
 		E8FEDC7B2FAA8C2AFB9EC46FE4851C01 /* Pods_StarIODeviceSettingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarIODeviceSettingSDK.framework; path = "Pods-StarIODeviceSettingSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8FBE47367B7A804BF1ECF336CBE87C /* StarIODeviceSetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarIODeviceSetting.release.xcconfig; sourceTree = "<group>"; };
-		FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarIODeviceSettingSDK-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,22 +103,6 @@
 			);
 			name = StarIO;
 			path = StarIO;
-			sourceTree = "<group>";
-		};
-		1D149984F8AD37370C6AF8BAA1543C33 /* Pods-StarIODeviceSettingSDK */ = {
-			isa = PBXGroup;
-			children = (
-				8ACCC5CF245A24389D8E02BF39A8A8BF /* Pods-StarIODeviceSettingSDK.modulemap */,
-				155BB9CE339A8F31EC38D15831EEC7F5 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */,
-				1316C6385AB792B8D8035C2AB8EBA0F6 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */,
-				975FF58A9900942A16EC3E795B5FA0FD /* Pods-StarIODeviceSettingSDK-dummy.m */,
-				2784FDEA51CC0930DA5D9E85491E2743 /* Pods-StarIODeviceSettingSDK-Info.plist */,
-				FB9323AE5E41CA58DF5FF9F60EA1E024 /* Pods-StarIODeviceSettingSDK-umbrella.h */,
-				CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */,
-				6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */,
-			);
-			name = "Pods-StarIODeviceSettingSDK";
-			path = "Target Support Files/Pods-StarIODeviceSettingSDK";
 			sourceTree = "<group>";
 		};
 		28980213100F74765F97E16B42FC1921 /* Support Files */ = {
@@ -176,6 +161,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B3A1BF6DF1C7E28DCC91E5394FFC645E /* Pods-StarIODeviceSettingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7F84E23C941163C8BDCEB6764D9B2 /* Pods-StarIODeviceSettingSDK.modulemap */,
+				3E7C8C398301B6CCDF29D3BC7DB76342 /* Pods-StarIODeviceSettingSDK-acknowledgements.markdown */,
+				7AEB3CEB65F2990BD60BD0572AD07244 /* Pods-StarIODeviceSettingSDK-acknowledgements.plist */,
+				212D6E54530391FB580BF0379D00C96C /* Pods-StarIODeviceSettingSDK-dummy.m */,
+				DD2E2107DD0EF03F51AF5CBC5A6E62D7 /* Pods-StarIODeviceSettingSDK-frameworks.sh */,
+				595475A61004613B1CBB5D0D203D300A /* Pods-StarIODeviceSettingSDK-Info.plist */,
+				3DEA0B7708C81F338002072F3083DC72 /* Pods-StarIODeviceSettingSDK-umbrella.h */,
+				51E2746D0CACBF2C146A0360030ACD1B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */,
+				C67A011D1006CE95E1461D94DDEC3058 /* Pods-StarIODeviceSettingSDK.release.xcconfig */,
+			);
+			name = "Pods-StarIODeviceSettingSDK";
+			path = "Target Support Files/Pods-StarIODeviceSettingSDK";
+			sourceTree = "<group>";
+		};
 		B6C5BD65A2C52C946CF04CD2F284A638 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,14 +187,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C436D61D272A1E82EED7D168ED946EA4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D149984F8AD37370C6AF8BAA1543C33 /* Pods-StarIODeviceSettingSDK */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +194,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B6C5BD65A2C52C946CF04CD2F284A638 /* Pods */,
 				D9BEA1BD577669147C4CAA58CD2482E7 /* Products */,
-				C436D61D272A1E82EED7D168ED946EA4 /* Targets Support Files */,
+				E3B50FA05E04E219D61EEA6C3020C318 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +212,14 @@
 				E8FEDC7B2FAA8C2AFB9EC46FE4851C01 /* Pods_StarIODeviceSettingSDK.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B50FA05E04E219D61EEA6C3020C318 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1BF6DF1C7E28DCC91E5394FFC645E /* Pods-StarIODeviceSettingSDK */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,7 +367,7 @@
 /* Begin XCBuildConfiguration section */
 		250B3E1CE16C5F57A7746264C4B08E7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6184BB48B8435A07F4121715CE45DDE8 /* Pods-StarIODeviceSettingSDK.release.xcconfig */;
+			baseConfigurationReference = C67A011D1006CE95E1461D94DDEC3058 /* Pods-StarIODeviceSettingSDK.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -485,7 +487,7 @@
 		};
 		40969F81C8F7C29F4C7437116226A0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE03FD0269770486CA9D70FEEE67AA8B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */;
+			baseConfigurationReference = 51E2746D0CACBF2C146A0360030ACD1B /* Pods-StarIODeviceSettingSDK.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
